@@ -1,6 +1,6 @@
 n = 0
 m = 0
-f = open('17.txt')
+f = open('37372.txt')
 a = list(map(int, f.readlines()))
 for i in range(10000):
     for y in range(i+1, 10000):

@@ -1,6 +1,6 @@
 z = 0
 m = 0
-f = open('17.txt')
+f = open('39764.txt')
 n = f.readlines()
 arr = []
 for i in range(len(n)):

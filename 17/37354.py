@@ -7,7 +7,7 @@
 таких пар. В данной задаче под парой подразумевается два различных
 элемента последовательности.
 '''
-f = open('17.txt')
+f = open('37354.txt')
 numbers = f.readlines()
 for i in range(len(numbers)):
     numbers[i] = int(numbers[i])

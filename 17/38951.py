@@ -5,7 +5,7 @@
 '''
 count = 0
 max = 0
-f = open('17.txt')
+f = open('38951.txt')
 nums = f.readlines()
 for i in range(len(nums)):
     nums[i] = int(nums[i])
