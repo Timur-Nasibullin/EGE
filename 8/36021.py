@@ -16,3 +16,16 @@ for str in listString:
     if line.count('В') <= 1 and line[0] != 'Ш' and line[5] not in 'ИЯ':
         count += 1
 print(count)
+
+# II способ (без itertools)
+count = 0
+for i1 in 'ВИШНЯ':
+    for i2 in 'ВИШНЯ':
+        for i3 in 'ВИШНЯ':
+            for i4 in 'ВИШНЯ':
+                for i5 in 'ВИШНЯ':
+                    for i6 in 'ВИШНЯ':
+                        line = i1 + i2 + i3 + i4 + i5 + i6
+                        if line.count('В') <= 1 and line[0] != 'Ш' and line[5] not in 'ИЯ':
+                            count += 1
+print(count)
